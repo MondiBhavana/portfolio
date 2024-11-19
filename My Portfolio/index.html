@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="./assets/photo.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#project" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#project" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Mondi Surya Bhavana.</h1>
+    <p>IT Under Graduatee.</p>
+    <img src="./assets/photo.jpg" alt="boy" class="w3-image" width="19%" height="18%">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Objective</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>A motivated Information Technology student with hands-on experience in full-stack web development, seeking to
+        apply my skills in a challenging development role. Eager to learn and adapt to new technologies while contributing
+        to innovative projects in a dynamic environment.
+    </p>
+    
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Education</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Bachelor Of Technology</li>
+          <li class="w3-padding-16">Presently I am Persuing my 4th Btech in the branch of Information Technology</li>
+          <li class="w3-padding-16">Location : Jawaharlal Nehru Technological University - Gurajada Vizianagaram</li>
+          <li class="w3-padding-16">CGPA : 8.52 / 10.0</li>
+          <li class="w3-padding-16">Year of Completion : 2025</li>
+        </ul>
+        
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Intermediate</li>
+            <li class="w3-padding-16">Akhil Junior College , Kakinada</li>
+            <li class="w3-padding-16">Year of Completion : 2021</li>
+            <li class="w3-padding-16">Marks : 975 / 1000</li>
+          </ul>
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Schooling</li>
+          <li class="w3-padding-16">Sadhana Public School , Divili</li>
+          <li class="w3-padding-16">Year of Completion : 2019</li>
+          <li class="w3-padding-16">CGPA : 9.8 / 10.0</li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">C language</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">Python</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">Java</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">HTML</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-wide">CSS</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div>
+    <p class="w3-wide">ReactJs</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div>
+    <p class="w3-wide">JavaScript</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">Microsoft Excel</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">Canva</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">NodeJs</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:40%"></div>
+    </div><br>
+
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> <a class="w3-bar-item w3-button" href="https://drive.google.com/file/d/1xmyn0D2wZ5xNZhMpGUCANxBYXmRafQBG/view?usp=drive_link">Download Resume</a> 
+    </button>
+  
+    <!-- Certifications Section -->
+
+    <!-- Title Row with Grey Background -->
+    <div style="display: flex; background-color: #f0f0f063;  padding: 15px 10px;">
+        <div style="flex: 1; text-align: left; color:#ddd" class="w3-xlarge">Certificate Name</div>
+        <div style="flex: 1; text-align: left; color:#ddd" class="w3-xlarge">Issuer</div>
+      </div>
+  
+    <!-- Certification Rows with White Background -->
+    <div style="display: flex; background-color: #fff; padding: 15px 10px; border-bottom: 1px solid #ddd; transition: background-color 0.3s;">
+      <div style="flex: 1; text-align: left;">
+        <a href="https://drive.google.com/file/d/17vU4Htg2disCUcumcuJDNXPWLeHm4Esa/view?usp=sharing" style="text-decoration: none;">Social Network Analysis</a>
+      </div>
+      <div style="flex: 1; text-align: left;">NPTEL</div>
+    </div>
+  
+    <div style="display: flex; background-color: #fff; padding: 15px 10px; border-bottom: 1px solid #ddd; transition: background-color 0.3s;">
+      <div style="flex: 1; text-align: left;">
+        <a href="https://coursera.org/share/992a2156578c847e20dc22fca1202c67" style="text-decoration: none; ">React Basics</a>
+      </div>
+      <div style="flex: 1; text-align: left;">Coursera</div>
+    </div>
+  
+    <div style="display: flex; background-color: #fff; padding: 15px 10px; border-bottom: 1px solid #ddd; transition: background-color 0.3s;">
+      <div style="flex: 1; text-align: left;">
+        <a href="https://coursera.org/share/a971a67a199932e53abff1cbd7ee7457" style="text-decoration: none; ">Front-End Development</a>
+      </div>
+      <div style="flex: 1; text-align: left;">Coursera</div>
+    </div>
+  
+    <div style="display: flex; background-color: #fff; padding: 15px 10px; border-bottom: 1px solid #ddd; transition: background-color 0.3s;">
+      <div style="flex: 1; text-align: left;">
+        <a href="https://www.hackerrank.com/certificates/ed16931c49eb" style="text-decoration: none;">SQL (Intermediate)</a>
+      </div>
+      <div style="flex: 1; text-align: left;">HackerRank</div>
+    </div>
+  
+    <div style="display: flex; background-color: #fff; padding: 15px 10px; border-bottom: 1px solid #ddd; transition: background-color 0.3s;">
+      <div style="flex: 1; text-align: left;">
+        <a href="https://drive.google.com/file/d/1zYNF4_UoCCM2FrQTzUXWv3CCgTtehTKl/view?usp=drive_link" style="text-decoration: none;">Java Foundations</a>
+      </div>
+      <div style="flex: 1; text-align: left;">Oracle</div>
+    </div>
+  
+    <div style="display: flex; background-color: #fff; padding: 15px 10px; border-bottom: 1px solid #ddd; transition: background-color 0.3s;">
+      <div style="flex: 1; text-align: left;">
+        <a href="https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_12666306402263577000_shared/1-1fe8b8e5-26b4-4815-97aa-5c767ab2b151.pdf" style="text-decoration: none;">Data Science</a>
+      </div>
+      <div style="flex: 1; text-align: left;">Infosys SpringBoard</div>
+    </div>
+    <div style="display: flex; background-color: #fff; padding: 15px 10px; border-bottom: 1px solid #ddd; transition: background-color 0.3s;">
+        <div style="flex: 1; text-align: left;">
+          <a href="https://drive.google.com/file/d/18h-0cejLyHkRlv6DewadDquFTgZeQX4Z/view?usp=drive_link" style="text-decoration: none;">Coumpter Graphics</a>
+        </div>
+        <div style="flex: 1; text-align: left;">NPTEL</div>
+      </div>
+  
+  <!-- End Certifications Section -->
+  
+  
+  
+  <!-- Portfolio Section -->
+  <!-- Projects Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="project">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for project photos and descriptions -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      
+      <!-- First Project -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4">
+          <img src="./assets/todo.png" alt="Project Image 1" style="width:100%">
+          <div class="w3-container">
+            <a style="text-decoration: none;" href="https://mondibhavana-todolist.netlify.app/"><h3>View : Todo List App</h3></a> 
+            <p class="w3-opacity">Developed a responsive to-do list application that allows users to add, edit, delete, and mark tasks as completed. Integrated local storage to save tasks even after the browser is closed.</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Project -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4">
+          <img src="./assets/unit.png" alt="Project Image 2" style="width:100%">
+          <div class="w3-container">
+           <a style="text-decoration: none;" href="https://mondibhavana-unit-converter.netlify.app/"><h3>View : Unit Converter</h3></a> 
+            <p class="w3-opacity">A simple, smart and elegant tool with more than 6 categories of units that are used in daily life , high responsive and easy to use interface.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Project -->
+      <div class="w3-third w3-margin-bottom">
+        <div class="w3-card-4">
+          <img src="./assets/quiz.png" alt="Project Image 3" style="width:100%">
+          <div class="w3-container">
+            <a style="text-decoration: none;" href="https://mondibhavana-quiz-app.netlify.app"><h3>View : Quiz-App</h3></a> 
+            <p class="w3-opacity">Built a responsive quiz application with multiple-choice questions, scoring, and feedback mechanisms.Ensured compatibility across different devices and browsers</p>
+            
+          </div>
+        </div>
+      </div>
+
+    <!-- Add more projects as needed -->
+    </div>
+  <!-- End Projects Section -->
+</div>
+
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Tuni , India </p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 8897819492</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: bhavanamondi23@gmail.com</p>
+      <p><i class="fa fa-github fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 
+        <a href="https://github.com/MondiBhavana" style="text-decoration: none; ">GitHub: github.com/MondiBhavana</a>
+    </p>
+    
+    <!-- LinkedIn Link -->
+    <p><i class="fa fa-linkedin fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 
+        <a href="https://www.linkedin.com/in/mondi-surya-bhavana-43a66b257" style="text-decoration: none; ">LinkedIn: linkedin.com/in/mondi-surya-bhavana</a>
+    </p>
+    </div><br>
+   
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    
+   <a href="https://www.instagram.com/mondibhavana/" style="text-decoration: none;"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+   <a href="https://www.linkedin.com/in/mondi-surya-bhavana-43a66b257" style="text-decoration: none; padding-left:20px;"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-medium">Powered by Mondi Surya Bhavana</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
